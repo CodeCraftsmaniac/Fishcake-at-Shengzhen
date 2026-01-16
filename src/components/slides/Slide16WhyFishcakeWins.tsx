@@ -3,22 +3,21 @@ import { SlideTitle } from "../presentation/SlideTitle";
 import { SlideTable } from "../presentation/SlideTable";
 import { SlideList } from "../presentation/SlideList";
 
-// More concrete labels + bold keywords in struggles
 const struggles = [
-  { approach: "Legacy loyalty + crypto", struggle: "Bolt-on blockchain, not native" },
-  { approach: "Payments-first crypto apps", struggle: "Start with finance, not service" },
-  { approach: "NFT drops as marketing", struggle: "Speculative, not sustainable" },
-  { approach: "Adtech middlemen", struggle: "Can't solve the trust/fee problem" },
+  { approach: "Loyalty platforms going \"Web3\"", struggle: "Bolt-on blockchain, not native" },
+  { approach: "Crypto payment apps", struggle: "Start with finance, not service" },
+  { approach: "NFT-based marketing", struggle: "Speculative, not sustainable" },
+  { approach: "Traditional marketing tech", struggle: "Can't solve the trust/fee problem" },
 ];
 
 const advantages = [
   "Native RWS design — Built for real-world services from day one",
   "The Gravity Loop — Self-reinforcing growth without marketing spend",
   "Revenue-backed tokenomics — Real money, not speculation",
-  "Live product — Shipping today, scaling next",
+  "Live product — Not a whitepaper, a working system",
 ];
 
-export const Slide16LiveDemo = () => {
+export const Slide16WhyFishcakeWins = () => {
   return (
     <SlideContainer>
       <SlideTitle gradient>Why Fishcake Wins</SlideTitle>

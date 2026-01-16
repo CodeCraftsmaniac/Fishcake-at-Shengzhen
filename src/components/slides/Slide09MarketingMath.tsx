@@ -3,7 +3,7 @@ import { SlideTitle } from "../presentation/SlideTitle";
 import { SlideCard } from "../presentation/SlideCard";
 import { X, Check } from "lucide-react";
 
-export const Slide09ForUsers = () => {
+export const Slide09MarketingMath = () => {
   return (
     <SlideContainer>
       <SlideTitle>For Businesses — Marketing Math That Actually Works</SlideTitle>

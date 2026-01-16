@@ -1,9 +1,10 @@
-fol================================================================================
+================================================================================
 SLIDE 1 — TITLE SLIDE
 ================================================================================
 
 TITLE:
-Leading RWS: Fishcake's Real-World Web3 Solution
+Fishcake EventFi
+Leading Real-World Web3 Solution (RWS)
 
 SUBTITLE:
 AI x Web3 Shenzhen Hackathon | Jan 24-25, 2026
@@ -16,8 +17,8 @@ TITLE:
 Opening Claim
 
 CONTENT:
-RWS doesn't work without execution.
-Fishcake is the execution layer.
+Everyone Talks about Real-World Web3.
+Fishcake executes it.
 
 ================================================================================
 SLIDE 3 — THE DECADE-LONG DETOUR
@@ -27,46 +28,53 @@ TITLE:
 The Decade-Long Detour
 
 CONTENT:
-Web3 kept building answers to the wrong question.
+For over a decade, Web3 kept asking the wrong kind of questions.
 
 2017: ICO        → "Can blockchain raise money?"
 2020: DeFi       → "Can blockchain replace banks?"
-2021: NFT        → "Can blockchain create digital ownership?"
+2021: NFT        → "Can blockchain prove digital ownership?"
 2022: Metaverse  → "Can blockchain build virtual worlds?"
 2024: RWA/PayFi  → "Can blockchain tokenize real assets?"
 
-All valid questions. All missing the point.
+But, blockchain was never just a financial tool.
 
-The real question was always:
-"Can blockchain create value in the real world — not just represent it?"
+The real question we kept avoiding:
+"Can decentralization and programmability solve real-world problems —
+not just move assets on-chain?"
 
-Bitcoin, Ethereum, blockchain itself — they were always real-world solutions.
-We just kept forgetting to ask: solutions for what?
+We didn't misunderstand blockchain.
+We underestimated it!
 
 ================================================================================
-SLIDE 4 — RWA VS. RWS — THE UPGRADE
+SLIDE 4 — RWA VS. RWS — FROM ASSETS TO ACTION
 ================================================================================
 
 TITLE:
-RWA vs. RWS — The Upgrade
+RWA vs. RWS — From Assets to Action
 
 CONTENT:
-RWA (Real-World Assets): Put real things on-chain.
-RWS (Real-World Solutions): Put real value creation on-chain.
+RWA - brings real assets on-chain.
+RWS - brings blockchain capabilities into real-world services.
 
+─────────────────────────────────────────────────────────────
 RWA                                    RWS
 ─────────────────────────────────────────────────────────────
-Tokenize a building                    Tokenize the interaction with a business
-Asset representation                   Value creation
-Static                                 Dynamic
-Finance-first                          Service-first
+Tokenize assets                        Program real-world interactions
+Ownership representation               Behavior execution
+Static                                 Dynamic 
+Finance-first                          Service & operation-first
+Value storage                          Value creation
+─────────────────────────────────────────────────────────────
 
 One-liner:
-RWS = embedding blockchain's value-creation capability into real-world services and interactions.
+RWS uses decentralization and programmability
+to run the real world — not just its assets.
 
 ================================================================================
-SLIDE 5 — WHY "ON-CHAIN EVERYTHING" ISN'T THE ANSWER (YET)
+SLIDE 5 — WHY "ON-CHAIN EVERYTHING" ISN'T THE ANSWER (YET) [HIDDEN]
 ================================================================================
+
+[NOTE: This slide is HIDDEN on the website. May use in future universal Fishcake Deck.]
 
 TITLE:
 Why "On-Chain Everything" Isn't the Answer (Yet)
@@ -90,11 +98,11 @@ They're the ones who build the steps.
 Fishcake builds the steps.
 
 ================================================================================
-SLIDE 6 — THE $500B PROBLEM
+SLIDE 6 — THE $500B REAL-WORLD PROBLEM
 ================================================================================
 
 TITLE:
-The $500B Problem
+The $500B Real-world Problem
 
 CONTENT:
 Global marketing spend: $500B+ annually. Most of it leaks.
@@ -124,9 +132,10 @@ TITLE:
 What Fishcake Is
 
 CONTENT:
-The RWS execution layer for real-world marketing.
+The execution layer for RWS in **Marketing**
 
 FOUR NON-NEGOTIABLE PRINCIPLES:
+
 Principle                    Implementation
 ─────────────────────────────────────────────────────────────
 On-chain generation          All incentives created via smart contracts
@@ -134,8 +143,9 @@ On-chain distribution        All rewards delivered directly to users
 Public transparency          All rules visible, verifiable, immutable
 Peer-to-peer value           Direct B2C exchange — no middleman touches value
 
-In one sentence:
-Fishcake is the settlement layer for real-world marketing.
+One-liner:
+Fishcake turns real-world marketing
+into decentralized, programmable value exchange.
 
 ================================================================================
 SLIDE 8 — THE GRAVITY LOOP
@@ -149,13 +159,13 @@ This is the core mechanism. Understand this, understand everything.
 
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│   1. Merchant creates campaign (funds with stablecoin)      │
+│   1. Merchant creates campaign (funds with stablecoin/FCC)  │
 │                          ↓                                  │
 │   2. Users discover & claim rewards                         │
 │                          ↓                                  │
-│   3. Foot traffic increases (real, measurable)              │
+│   3. Foot traffic/customer engagements increases            │
 │                          ↓                                  │
-│   4. Merchant sees ROI — 100% on-chain verifiable           │
+│   4. Merchant sees ROI — Customer + PoW FCC                 │
 │                          ↓                                  │
 │   5. Merchant creates NEXT campaign                         │
 │                          ↓                                  │
@@ -172,12 +182,8 @@ This is the core mechanism. Understand this, understand everything.
 
 This isn't a feature. It's a force.
 
-500+ events already run on Fishcake.
+**3350**+ events already run on Fishcake.
 $50,000+ in on-chain rewards distributed.
-(Stats growing daily — check live dashboard)
-
-Traditional platforms spend to grow.
-Fishcake grows because the loop pulls.
 
 [DESIGN NOTE: Flywheel graphic > text. Steps 1-5 visible. Step 6 collapsed into "Network effects compound". Must land in 10 seconds on stage.]
 
@@ -189,6 +195,7 @@ TITLE:
 For Businesses — Marketing Math That Actually Works
 
 CONTENT:
+
 TRADITIONAL MODEL:
 Spend $10,000
 - Platform fee: $2,000
@@ -221,6 +228,7 @@ TITLE:
 For Businesses — Loyalty Without the Baggage
 
 CONTENT:
+
 TRADITIONAL LOYALTY PROGRAMS:
 • Complex, expensive to build and maintain
 • Fragmented points that expire
@@ -230,10 +238,11 @@ TRADITIONAL LOYALTY PROGRAMS:
 Fishcake doesn't create "yet another points system."
 
 THE FISHCAKE MODEL:
+
 Old way                          Fishcake way
 ─────────────────────────────────────────────────────────────
-Loyalty program operator         Ecosystem contributor
-Issue your own points            Earn FCC through PoW participation
+Loyalty program operator         **on-chain participation**
+Issue your own points            **Earn FCC as ecosystem contributor**
 Isolated value                   Shared value in unified economy
 
 Run real events → Earn real rewards → Grow with the ecosystem
@@ -256,8 +265,8 @@ HOW WE BREAK WEB3 SKEPTICISM:
 User barrier                     How Fishcake kills it
 ─────────────────────────────────────────────────────────────
 "Crypto is complicated"          Wallet creation in 3 seconds
-"I don't know how"               Scan QR → Claim → Done
-"I need help"                    Built-in AI Assistant
+"I don't know how"               **join→ claim→ Scan → Done**
+"I need help"                    **Built-in AI Assistant**
 "I don't trust it"               Local business verification
 "I don't want tokens"            Stablecoin cashback option
 "Points always expire"           FCC is on-chain, composable, permanent
@@ -279,11 +288,12 @@ FCC is a claim on Fishcake's growth.
 Typical tokens                   FCC
 ─────────────────────────────────────────────────────────────
 Utility inside one app           Value capture across entire ecosystem
-Inflationary rewards             Deflationary pressure via Redemption Pool
-dilute value
+Inflationary rewards dilute value   Deflationary pressure via Redemption Pool
 Price = speculation              Price = revenue-backed floor + market
 
 Holding FCC = Holding a share of every transaction in the Fishcake ecosystem.
+
+[NOTE: Update deployment]
 
 ================================================================================
 SLIDE 13 — THE REDEMPTION POOL: FCC'S VALUE ANCHOR
@@ -296,11 +306,13 @@ CONTENT:
 This is where "revenue" becomes "real."
 
 THE MECHANISM:
-1. Merchant funds campaign with stablecoins (e.g., USDT)
+
+1. Take portion of every platform revenue
+   NFT/Badge/protocol fee etc.
 ↓
-2. Protocol fee captured (2-5% of campaign value)
+2. Flows directly into Redemption Pool
 ↓
-3. Fee flows into Redemption Pool
+3. Direct, transparent, on-chain
 ↓
 4. Pool is 100% USDT-backed
 ↓
@@ -323,8 +335,9 @@ TITLE:
 Token Distribution — Rewarding Builders, Not Speculators
 
 CONTENT:
+
 Allocation                       %        Purpose
-─────────────────────────────────────────────────────────────
+─────────────────────────────────────────────────────────────────────────────
 Mining Pool (PoW)                30%      Run real events → Earn FCC as
                                           ecosystem contributor
 NFT Sales Reward                 20%      On-chain identity + EVENT CREDIBILITY:
@@ -339,9 +352,9 @@ Ecosystem                        10%      Partnerships, integrations, growth
 Fishcake Foundation              10%      Governance & development
 
 CAKE POWER SYSTEM:
-• Stake FCC + NFT Pass = Boosted Cake Power
-• More Cake Power = Higher mining multiplier
-• Composable: Stack multiple boosters for exponential gains
+• NFT Pass = PoW Mining + Boosted CakePower
+• More Cake Power = Boost FCC Staking APR
+• Composable: Stack FCC with booster NFTs for exponential gains
 
 THE PHILOSOPHY:
 • Contribute → Earn
@@ -383,7 +396,9 @@ TITLE:
 Why Fishcake Wins
 
 CONTENT:
+
 THE COMPETITIVE LANDSCAPE:
+
 Other approaches                 Why they struggle
 ─────────────────────────────────────────────────────────────
 Loyalty platforms going "Web3"   Bolt-on blockchain, not native
@@ -392,6 +407,7 @@ NFT-based marketing              Speculative, not sustainable
 Traditional marketing tech       Can't solve the trust/fee problem
 
 FISHCAKE'S UNFAIR ADVANTAGES:
+
 1. Native RWS design — Built for real-world services from day one
 2. The Gravity Loop — Self-reinforcing growth without marketing spend
 3. Revenue-backed tokenomics — Real money, not speculation
@@ -413,7 +429,6 @@ EVENT:
 • Fishcake Contribution: 1,700 USDT + 6,000 FCC
 
 ─────────────────────────────────────────────────────────────────────────────
-
 🐟 FISHCAKE TRACK — PRIZE BREAKDOWN:
 
 Award                            Prize
@@ -443,7 +458,6 @@ Award                            Prize
 ─────────────────────────────────────────────────────────────────────────────
 
 🔥 WHY SHENZHEN:
-
 • HARDWARE CAPITAL: Ideas → Products overnight
 • DEVELOPER DENSITY: 10,000+ Web3 builders in Greater Bay Area
 • GATEWAY TO CHINA: 1.4B users, one border away
@@ -470,7 +484,8 @@ Before We Continue — A Question
 CONTENT:
 How many of you have claimed a reward today?
 
-(Pause for hands)
+[FCC CLAIM QR CODE]
+→ https://fishcake.io/event?activityId=3360
 
 If you haven't yet — you're about to.
 If you have — you already know what comes next.
@@ -483,6 +498,7 @@ TITLE:
 Live Demo — You're Already Inside the Loop
 
 CONTENT:
+
 WHAT YOU'RE ABOUT TO DO:
 Step 1: Scan QR code
 Step 2: Claim reward (stablecoin or FCC)
@@ -556,20 +572,6 @@ CONNECT:
 [DESIGN NOTE: One dominant QR code. Group all links into one visual column. Avoid "link soup" — clean, scannable layout.]
 
 ================================================================================
-END OF PRESENTATION — 21 SLIDES TOTAL
+END OF PRESENTATION — 21 SLIDES TOTAL (Slide 5 Hidden)
 ================================================================================
 
-
-================================================================================
-NOTES (FOR FUTURE CONTENT)
-================================================================================
-
-## Cake Booster NFT Specifics
-[Pending — user will provide additional details]
-
-## Social Links
-• X (Twitter): https://x.com/fishcake_labs
-• Telegram: https://t.me/Fishcake_Labs
-• GitHub: https://github.com/FishcakeLab
-
-================================================================================

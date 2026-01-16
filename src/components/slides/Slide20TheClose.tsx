@@ -10,7 +10,7 @@ const reasons = [
   "And now — you're in it",
 ];
 
-export const Slide20Placeholder = () => {
+export const Slide20TheClose = () => {
   return (
     <SlideContainer>
       <SlideTitle>The Close</SlideTitle>

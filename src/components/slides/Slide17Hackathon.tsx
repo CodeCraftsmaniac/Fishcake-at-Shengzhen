@@ -17,12 +17,12 @@ const directions = [
 ];
 
 const whyShenzhen = [
-  "Hardware Capital: Ideas → Products overnight",
-  "Developer Density: 10,000+ Web3 builders in Greater Bay Area",
-  "Gateway to China: 1.4B users, one border away",
+  "HARDWARE CAPITAL: Ideas → Products overnight",
+  "DEVELOPER DENSITY: 10,000+ Web3 builders in Greater Bay Area",
+  "GATEWAY TO CHINA: 1.4B users, one border away",
 ];
 
-export const Slide17TheClose = () => {
+export const Slide17Hackathon = () => {
   return (
     <SlideContainer>
       <SlideTitle gradient>Shenzhen Hackathon — Build the Next Layer</SlideTitle>
@@ -47,7 +47,7 @@ export const Slide17TheClose = () => {
       {/* Prize Breakdown */}
       <div className="mb-6">
         <h3 className="font-display text-sm font-semibold text-primary mb-3 text-center flex items-center justify-center gap-2">
-          <Trophy className="w-4 h-4" /> Fishcake Track — Prize Breakdown
+          <Trophy className="w-4 h-4" /> 🐟 Fishcake Track — Prize Breakdown
         </h3>
         <div className="grid md:grid-cols-4 gap-2">
           {prizes.map((p, i) => (
@@ -64,7 +64,7 @@ export const Slide17TheClose = () => {
       {/* Build Directions */}
       <div className="mb-6 animate-fade-in" style={{ animationDelay: "400ms" }}>
         <h3 className="font-display text-sm font-semibold text-primary mb-3 text-center flex items-center justify-center gap-2">
-          <Wrench className="w-4 h-4" /> 3 Build Directions
+          <Wrench className="w-4 h-4" /> 🔧 3 Build Directions
         </h3>
         <div className="grid md:grid-cols-3 gap-3">
           {directions.map((d, i) => (
@@ -79,7 +79,7 @@ export const Slide17TheClose = () => {
       {/* Why Shenzhen */}
       <div className="mb-4 animate-fade-in" style={{ animationDelay: "500ms" }}>
         <h3 className="font-display text-sm font-semibold text-primary mb-2 text-center flex items-center justify-center gap-2">
-          <MapPin className="w-4 h-4" /> Why Shenzhen
+          <MapPin className="w-4 h-4" /> 🔥 Why Shenzhen
         </h3>
         <div className="flex flex-wrap justify-center gap-2">
           {whyShenzhen.map((item, i) => (
@@ -99,6 +99,9 @@ export const Slide17TheClose = () => {
         </div>
         <p className="text-muted-foreground text-xs mt-2">
           Top builders get direct integration into Fishcake core • Your code ships to real users within 30 days
+        </p>
+        <p className="text-foreground text-sm mt-3 font-medium">
+          This isn't about winning a prize. It's about building the standard — starting from Shenzhen.
         </p>
       </div>
     </SlideContainer>

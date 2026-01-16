@@ -14,10 +14,10 @@ const userData = [
   { experience: "Points that expire", cost: "Real value lost" },
 ];
 
-export const Slide06WhatFishcakeIs = () => {
+export const Slide06The500BProblem = () => {
   return (
     <SlideContainer>
-      <SlideTitle gradient>The $500B Problem</SlideTitle>
+      <SlideTitle gradient>The $500B Real-world Problem</SlideTitle>
       
       <p className="text-xl text-muted-foreground mb-8 text-center animate-slide-up">
         Global marketing spend: <span className="text-accent font-bold">$500B+ annually</span>. Most of it leaks.

@@ -1,50 +1,51 @@
 import { useState, useEffect, useCallback } from "react";
-import { Slide01Opening } from "@/components/slides/Slide01Opening";
-import { Slide02DecadeDetour } from "@/components/slides/Slide02DecadeDetour";
-import { Slide03RWAvsRWS } from "@/components/slides/Slide03RWAvsRWS";
-import { Slide04OnChainEverything } from "@/components/slides/Slide04OnChainEverything";
-import { Slide05The500BProblem } from "@/components/slides/Slide05The500BProblem";
-import { Slide06WhatFishcakeIs } from "@/components/slides/Slide06WhatFishcakeIs";
-import { Slide07GravityLoop } from "@/components/slides/Slide07GravityLoop";
-import { Slide08MarketingMath } from "@/components/slides/Slide08MarketingMath";
-import { Slide09ForUsers } from "@/components/slides/Slide09ForUsers";
-import { Slide10FCC } from "@/components/slides/Slide10FCC";
-import { Slide11RedemptionPool } from "@/components/slides/Slide11RedemptionPool";
-import { Slide12TokenDistribution } from "@/components/slides/Slide12TokenDistribution";
-import { Slide13WhereWeAre } from "@/components/slides/Slide13WhereWeAre";
-import { Slide14WhyFishcakeWins } from "@/components/slides/Slide14WhyFishcakeWins";
-import { Slide15Hackathon } from "@/components/slides/Slide15Hackathon";
-import { Slide16LiveDemo } from "@/components/slides/Slide16LiveDemo";
-import { Slide17TheClose } from "@/components/slides/Slide17TheClose";
-import { Slide18Final } from "@/components/slides/Slide18Final";
-import { Slide19Placeholder } from "@/components/slides/Slide19Placeholder";
-import { Slide20Placeholder } from "@/components/slides/Slide20Placeholder";
-import { Slide21Placeholder } from "@/components/slides/Slide21Placeholder";
+// V2 Slide Order (Slide 5 "On-Chain Everything" is HIDDEN per V2 spec)
+import { Slide01TitleSlide } from "@/components/slides/Slide01TitleSlide";     // 1. Title Slide
+import { Slide02OpeningClaim } from "@/components/slides/Slide02OpeningClaim"; // 2. Opening Claim
+import { Slide03DecadeDetour } from "@/components/slides/Slide03DecadeDetour"; // 3. The Decade-Long Detour
+import { Slide04RWAvsRWS } from "@/components/slides/Slide04RWAvsRWS";         // 4. RWA vs. RWS
+// Slide 5 (On-Chain Everything) is HIDDEN
+import { Slide06The500BProblem } from "@/components/slides/Slide06The500BProblem";     // 6. The $500B Problem
+import { Slide07WhatFishcakeIs } from "@/components/slides/Slide07WhatFishcakeIs";     // 7. What Fishcake Is
+import { Slide08GravityLoop } from "@/components/slides/Slide08GravityLoop";           // 8. The Gravity Loop
+import { Slide09MarketingMath } from "@/components/slides/Slide09MarketingMath";       // 9. Marketing Math
+import { Slide10LoyaltyWithoutBaggage } from "@/components/slides/Slide10LoyaltyWithoutBaggage"; // 10. Loyalty Without Baggage
+import { Slide11ForUsers } from "@/components/slides/Slide11ForUsers";                 // 11. For Users - Web3 UX
+import { Slide12FCC } from "@/components/slides/Slide12FCC";                           // 12. FCC Stock-Like Asset
+import { Slide13RedemptionPool } from "@/components/slides/Slide13RedemptionPool";     // 13. Redemption Pool
+import { Slide14TokenDistribution } from "@/components/slides/Slide14TokenDistribution"; // 14. Token Distribution
+import { Slide15WhereWeAre } from "@/components/slides/Slide15WhereWeAre";             // 15. Where We Are
+import { Slide16WhyFishcakeWins } from "@/components/slides/Slide16WhyFishcakeWins";   // 16. Why Fishcake Wins
+import { Slide17Hackathon } from "@/components/slides/Slide17Hackathon";               // 17. Shenzhen Hackathon
+import { Slide18BeforeWeContinue } from "@/components/slides/Slide18BeforeWeContinue"; // 18. Before We Continue (QR)
+import { Slide19LiveDemo } from "@/components/slides/Slide19LiveDemo";                 // 19. Live Demo
+import { Slide20TheClose } from "@/components/slides/Slide20TheClose";                 // 20. The Close
+import { Slide21Final } from "@/components/slides/Slide21Final";                       // 21. Final Frame
 import { SlideNavigation } from "@/components/presentation/SlideNavigation";
 import { NavigationDots } from "@/components/presentation/NavigationDots";
 
 const slides = [
-  Slide01Opening,
-  Slide02DecadeDetour,
-  Slide03RWAvsRWS,
-  Slide04OnChainEverything,
-  Slide05The500BProblem,
-  Slide06WhatFishcakeIs,
-  Slide07GravityLoop,
-  Slide08MarketingMath,
-  Slide09ForUsers,
-  Slide10FCC,
-  Slide11RedemptionPool,
-  Slide12TokenDistribution,
-  Slide13WhereWeAre,
-  Slide14WhyFishcakeWins,
-  Slide15Hackathon,
-  Slide16LiveDemo,
-  Slide17TheClose,
-  Slide18Final,
-  Slide19Placeholder,
-  Slide20Placeholder,
-  Slide21Placeholder,
+  Slide01TitleSlide,        // 1. Title Slide
+  Slide02OpeningClaim,      // 2. Opening Claim
+  Slide03DecadeDetour,      // 3. The Decade-Long Detour
+  Slide04RWAvsRWS,          // 4. RWA vs. RWS
+  // Slide 5 HIDDEN per V2 spec
+  Slide06The500BProblem,    // 6. The $500B Problem
+  Slide07WhatFishcakeIs,    // 7. What Fishcake Is
+  Slide08GravityLoop,       // 8. The Gravity Loop
+  Slide09MarketingMath,     // 9. Marketing Math
+  Slide10LoyaltyWithoutBaggage, // 10. Loyalty Without Baggage
+  Slide11ForUsers,          // 11. For Users - Web3 UX
+  Slide12FCC,               // 12. FCC Stock-Like Asset
+  Slide13RedemptionPool,    // 13. Redemption Pool
+  Slide14TokenDistribution, // 14. Token Distribution
+  Slide15WhereWeAre,        // 15. Where We Are
+  Slide16WhyFishcakeWins,   // 16. Why Fishcake Wins
+  Slide17Hackathon,         // 17. Shenzhen Hackathon
+  Slide18BeforeWeContinue,  // 18. Before We Continue (QR)
+  Slide19LiveDemo,          // 19. Live Demo
+  Slide20TheClose,          // 20. The Close
+  Slide21Final,             // 21. Final Frame
 ];
 
 const Index = () => {
