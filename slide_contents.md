@@ -104,6 +104,8 @@ RWS = embedding blockchain's value-creation capability into real-world services 
 
 <!--
 🔴  J comments:
+!TITLE:
+RWA vs. RWS — From Assets to Action
 !Content:
 RWA - brings real assets on-chain.
 RWS - brings blockchain capabilities into real-world services.
